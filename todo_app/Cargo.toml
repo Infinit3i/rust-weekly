@@ -1,0 +1,8 @@
+[package]
+name = "todo_app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { version = "0.20", features = ["csr"] }
+web-sys = { version = "0.3", features = ["HtmlInputElement"] }
